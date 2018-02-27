@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="3592 3551 176 176">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #eff4f5;
+        opacity: 0.95;
+      }
+
+      .cls-2 {
+        fill: #ff9300;
+      }
+
+      .cls-3 {
+        filter: url(#Rectangle_28);
+      }
+    </style>
+    <filter id="Rectangle_28" x="3592" y="3551" width="176" height="176" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_38" data-name="Group 38" transform="translate(2700)">
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, -2700, 0)">
+      <rect id="Rectangle_28-2" data-name="Rectangle 28" class="cls-1" width="146" height="146" rx="10" transform="translate(3607 3566)"/>
+    </g>
+    <g id="idea" transform="translate(952.92 3610.145)">
+      <path id="Path_16" data-name="Path 16" class="cls-2" d="M28.294,8a18.29,18.29,0,0,0-6.457,35.4V53.2a1.075,1.075,0,0,0,1.076,1.076H23.99v2.152A1.075,1.075,0,0,0,25.066,57.5h6.457A1.075,1.075,0,0,0,32.6,56.425V54.273h1.076A1.075,1.075,0,0,0,34.751,53.2V43.4A18.29,18.29,0,0,0,28.294,8Zm3.228,44.121A1.075,1.075,0,0,0,30.446,53.2v2.152h-4.3V53.2a1.075,1.075,0,0,0-1.076-1.076H23.99V46.74H32.6v5.381Zm1.816-10.5a1.077,1.077,0,0,0-.74,1.022v1.946H23.99V42.643a1.076,1.076,0,0,0-.74-1.022,16.142,16.142,0,1,1,10.09,0Z" transform="translate(-1.391 0.609)"/>
+      <path id="Path_17" data-name="Path 17" class="cls-2" d="M27.076,6.457a1.075,1.075,0,0,0,1.076-1.076v-4.3a1.076,1.076,0,0,0-2.152,0v4.3A1.075,1.075,0,0,0,27.076,6.457Z" transform="translate(-0.173)"/>
+      <path id="Path_18" data-name="Path 18" class="cls-2" d="M51.381,24h-4.3a1.076,1.076,0,1,0,0,2.152h4.3a1.076,1.076,0,1,0,0-2.152Z" transform="translate(1.349 1.827)"/>
+      <path id="Path_19" data-name="Path 19" class="cls-2" d="M7.381,24h-4.3a1.076,1.076,0,1,0,0,2.152h4.3a1.076,1.076,0,1,0,0-2.152Z" transform="translate(-2 1.827)"/>
+      <path id="Path_20" data-name="Path 20" class="cls-2" d="M43.5,7.344l-3.043,3.043a1.076,1.076,0,1,0,1.522,1.522l3.043-3.043A1.076,1.076,0,1,0,43.5,7.344Z" transform="translate(0.904 0.535)"/>
+      <path id="Path_21" data-name="Path 21" class="cls-2" d="M12.388,38.458,9.344,41.5a1.076,1.076,0,1,0,1.522,1.522l3.043-3.043a1.076,1.076,0,1,0-1.522-1.522Z" transform="translate(-1.465 2.904)"/>
+      <path id="Path_22" data-name="Path 22" class="cls-2" d="M41.98,38.458a1.076,1.076,0,0,0-1.522,1.522L43.5,43.023A1.076,1.076,0,0,0,45.023,41.5Z" transform="translate(0.904 2.904)"/>
+      <path id="Path_23" data-name="Path 23" class="cls-2" d="M12.388,11.909a1.076,1.076,0,0,0,1.522-1.522L10.866,7.344A1.076,1.076,0,1,0,9.344,8.866Z" transform="translate(-1.465 0.535)"/>
+      <path id="Path_24" data-name="Path 24" class="cls-2" d="M27.913,13A12.928,12.928,0,0,0,15,25.913a1.076,1.076,0,0,0,2.152,0A10.773,10.773,0,0,1,27.913,15.152a1.076,1.076,0,1,0,0-2.152Z" transform="translate(-1.01 0.99)"/>
+    </g>
+  </g>
+</svg>

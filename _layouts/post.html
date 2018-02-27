@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<div class="hero-posts">
+  <div class="container">
+    <div class="row">
+      <div class="grid-12">
+        <h1 data-aos="fade-up">Acontece no Nini Mourão</h1>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="grid-9">
+      <a href="javascript:history.back()" class="go-to-back" title="Voltar"></a>
+    </div>
+    <div class="grid-9">
+      <h2 class="post-title">{{ page.title | escape }}</h2>
+      <span class="post-date">Publicado em {{ page.date | date: "%d/%m/%Y" }}</span>
+      <div class="post-content">
+        {{ content }}
+      </div>
+    </div>
+    <div class="grid-3">
+      <div class="last-news">
+        <h3>Últimas notícias</h3>
+        <ul>
+          {% for post in site.posts %}
+            {% if page.title != post.title %}
+            <li>
+              <a href="{{ post.url }}">
+                <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span>
+                <h4>{{ post.title }}</h4>        
+              </a>
+            </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+

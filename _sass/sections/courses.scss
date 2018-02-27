@@ -1,0 +1,49 @@
+.courses{
+  margin: 40px 0;
+  
+  .title{
+    color: #FF03D8;
+    &:after{
+      background: #FF03D8;
+    }
+  }
+  
+  a{
+    text-decoration: none;
+    .banners{
+      transition: all .2s cubic-bezier(.4,0,.2,1);
+      &:hover{
+        webkit-transform: scale(1.02);
+        transform: scale(1.02);
+      }
+      display: flex;
+      align-items: flex-end;
+      
+      h3{
+        color: white;
+        width: 120px;
+        margin: 0 0 20px 20px;
+        font-size: 2em;
+      }
+    }
+    
+  }
+}
+
+.educacao-infantil{
+  background: url(images/banner-educacao-infantil.png) no-repeat;
+  background-size: cover;
+  height: 590px;
+}
+
+.educacao-fundamental{
+  background: url(images/banner-educacao-fundamental.png) no-repeat;
+  height: 280px;
+  margin: 0 0 30px 0;
+}
+
+.ensino-medio{
+  background: url(images/banner-ensino-medio.png) no-repeat;
+  background-size: cover;
+  height: 280px;
+}

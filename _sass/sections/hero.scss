@@ -1,0 +1,37 @@
+.hero{
+  padding: 200px 0 0 0;
+  min-height: 50vh;
+  
+  @media only screen and (max-width: 550px) {
+    padding: 160px 0 0 0;
+    min-height: 80vh;
+    display: block;
+    
+  }
+
+  background: rgb(0,255,216); /* Old browsers */
+  background: -moz-linear-gradient(45deg,  rgba(249,49,103,0.2) 0%, rgba(232,64,159,1) 100%) ,url(images/background-hero.png) no-repeat  ; /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg,  rgba(249,49,103,0.2) 0%, rgba(232,64,159,1) 100%) ,url(images/background-hero.png) no-repeat ; /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg,  rgba(249,49,103,0.2) 0%, rgba(232,64,159,1) 100%),url(images/background-hero.png) no-repeat ; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f93167', endColorstr='#e8409f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  color: white;
+
+  p{
+    font-size: 1.2em;
+    margin: 0 0 40px 0;
+    
+    @media only screen and (max-width: 550px) {
+      margin: 40px 0 40px 0;
+      
+    }
+  }
+
+  a,p{
+    color: white;
+  }
+
+}

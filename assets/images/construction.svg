@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="1969 657 639 632">
+  <defs>
+    <style>
+      .cls-1, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        stroke: #e6e6e6;
+      }
+
+      .cls-1, .cls-2 {
+        opacity: 0.75;
+      }
+
+      .cls-2 {
+        fill: #0a8eff;
+      }
+
+      .cls-3 {
+        opacity: 0.301;
+      }
+
+      .cls-4, .cls-5 {
+        opacity: 0.442;
+      }
+
+      .cls-4 {
+        fill: url(#pattern);
+      }
+
+      .cls-6 {
+        fill: #777a7c;
+        font-size: 16px;
+        font-family: Nunito-Regular, Nunito;
+      }
+
+      .cls-7 {
+        font-family: Nunito-Bold, Nunito;
+        font-weight: 700;
+      }
+
+      .cls-8 {
+        opacity: 0.443;
+      }
+
+      .cls-9 {
+        stroke: none;
+      }
+
+      .cls-10 {
+        fill: none;
+      }
+
+      .cls-11 {
+        filter: url(#Rectangle_15);
+      }
+    </style>
+    <filter id="Rectangle_15" x="1969" y="657" width="639" height="632" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="38" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 256 256">
+      <image width="256" height="256" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhmAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA79JREFUeNrs3cFto0AUgOHNmgJcgk9zpgTcybaQCpwO3II7gRI4z8kluIPdhxRpzxBjM8P3SYgTsXmDf4nIyIdfwG4djAAEABAAQAAAAQAEABAAQAAAAQAEABAAQACAonyklL4Kfe/3nPOthkUoeA0oXBPbpdD3PsR2q2QdLi5F3uG3EYAAAAIACAAgAIAAAAIACAAgAIAAAAVrFhwzxvbYwHsfK1qHYeW/f4ytLXSdWXGdp4eB/s58kXPOeTDrcsQad7HrrbN1dgsACAAgACAAgAAAAgAIACAAgAAAAgAIACAAgAAAAgAIACAAgAAAAgAIACAAgAAAAgAIACAAgAAAAgAIACAAgAAAAgAIACAAgAAAAgAIACAAgAAAAgAIACAAIACAAAACAAgAIACAAAACAAgAIABA0Roj2IUxtvOCYxAASpdzfsRuMAncAgACAAgACAAgAIAAAAIACAAgAIAAAAIACAAgAIAAAAIACAAgAIAAAAIACAAgAIAAAAIACAAgAIAAAAIACADwXH4cdAdSSsfYtTMPG79/VBQBoHDTh7+fecz0c+KD0bkFAAQAEABAAAABAAQAEABAAAABAAQAEABAAAABADZgydOAbUqp1nm85RHYmGe38ku0Lz6fU+xOPl4v174iANeKB/iuR2D7yub4J7aLz6NbAEAAAAEABAAQAEAAAAEABAAQAEAAAAEAVrHkWYDP2MZK5/Gu8zqbxSZnUJrpYaDr2gGYnpgbzPp5zNMMnmHJU7puAcD/AAABAAQAEABAAAABAAQAEABAAAABAAQAEABAAAABAAQAEABAAAABAAQAEABAAAABAAQAEABAAAABAAQAEABAAAABAAQAEABAAAABAAQAEAAQACMAAQAEANiTxghYwS22wRgEgB3KOd9jdzcJtwCAAAACAAgAIACAAAACAAgAIACAAAACAAgAIACAAAACAAgAIACAAAACAAgAIACAAAACACz6XYBrSulRyPl95pzH0hcp5n2NXVvzhRjrdPZxLCMAJV2Ix0rWaZp553LFLQAgAIAAAAIACAAgAIAAAAIACAAgAMB/01eBh4rP71HJeZT2PMPpe2PjPoyAZ0spfcXuMueYnLNr8edz72LXuwUABAAQAEAAAAEABAAQABAAQAAAAQAEABAAQAAAAQAEAKhCYwRsQUqpN4UfOwoApeqMwC0AIACAAAACAAgAIACAAAACAAgAIADAHL4KzBoGIwDYuIMRgAAAAgAIACAAgAAAAgAIACAAgAAAAgAIAFCUfwIMANaQXFl23htjAAAAAElFTkSuQmCC"/>
+    </pattern>
+  </defs>
+  <g id="Group_33" data-name="Group 33" transform="translate(1350)">
+    <g class="cls-11" transform="matrix(1, 0, 0, 1, -1350, 0)">
+      <g id="Rectangle_15-2" data-name="Rectangle 15" class="cls-1" transform="translate(2083 768)">
+        <rect class="cls-9" width="411" height="404" rx="4"/>
+        <rect class="cls-10" x="0.5" y="0.5" width="410" height="403" rx="3.5"/>
+      </g>
+    </g>
+    <path id="Rectangle_16" data-name="Rectangle 16" class="cls-2" d="M4,0H407a4,4,0,0,1,4,4V52a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V4A4,4,0,0,1,4,0Z" transform="translate(733 768)"/>
+    <g id="drop" class="cls-3" transform="translate(745.182 947.501)">
+      <path id="Path_4" data-name="Path 4" d="M76.435,29.019a.36.36,0,0,0-.018-.04L61.483.194a.36.36,0,0,0-.64,0L45.909,28.979a.325.325,0,0,0-.018.04A16.839,16.839,0,0,0,61.152,51.743h.022A16.839,16.839,0,0,0,76.435,29.019Z"/>
+      <g id="Group_5" data-name="Group 5" transform="translate(44.818 0.427)">
+        <path id="Path_6" data-name="Path 6" d="M357.189,184.956a.373.373,0,0,0-.018-.04l-7.364-14.193a.36.36,0,0,0-.64,0L341.8,184.916a.326.326,0,0,0-.018.04,8.485,8.485,0,0,0,7.69,11.451h.022a8.485,8.485,0,0,0,7.69-11.451Z" transform="translate(-302.456 -148.641)"/>
+      </g>
+      <path id="Path_8" data-name="Path 8" d="M278.938,388.04l-4.906-9.457a.36.36,0,0,0-.64,0l-4.907,9.457a.337.337,0,0,0-.018.04,5.775,5.775,0,0,0,5.234,7.793h.022a5.775,5.775,0,0,0,5.233-7.793A.353.353,0,0,0,278.938,388.04Z" transform="translate(-194.066 -328.873)"/>
+      <path id="Path_9" data-name="Path 9" d="M302.018,388.079a.347.347,0,0,0-.018-.04l-4.906-9.457a.36.36,0,0,0-.32-.194.355.355,0,0,0-.11.019l-2.014,11.851a.408.408,0,0,0-.005.049,6.522,6.522,0,0,0,2.613,5.531,5.774,5.774,0,0,0,4.761-7.759Z" transform="translate(-217.128 -328.873)"/>
+    </g>
+    <path id="_1" data-name="1" class="cls-4" d="M0,0H63V63H0Z" transform="translate(782 1061)"/>
+    <image id="_3" data-name="3" class="cls-5" width="67" height="67" transform="translate(778 846)" xlink:href="data:image/png;base64,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"/>
+    <text id="pode_construir_1800_00m_" data-name="pode construir 1800,00m²" class="cls-6" transform="translate(868 889)"><tspan x="0" y="0">pode construir </tspan><tspan class="cls-7" y="0">1800,00m²</tspan></text>
+    <text id="deve_deixar_no_mínimo_90_00m_do_terreno_permeável" data-name="deve deixar no mínimo 90,00m² 
+do terreno permeável" class="cls-6" transform="translate(868 978)"><tspan x="0" y="0">deve deixar no mínimo </tspan><tspan class="cls-7" y="0">90,00m² </tspan><tspan x="0" y="22">do terreno permeável</tspan></text>
+    <text id="pode_ocupar_720_00m_do_terreno" data-name="pode ocupar 720,00m² do terreno" class="cls-6" transform="translate(868 1095)"><tspan x="0" y="0">pode ocupar </tspan><tspan class="cls-7" y="0">720,00m²</tspan><tspan y="0" xml:space="preserve"> do terreno</tspan></text>
+    <rect id="Rectangle_17" data-name="Rectangle 17" class="cls-8" width="105" height="10" transform="translate(756 789)"/>
+  </g>
+</svg>

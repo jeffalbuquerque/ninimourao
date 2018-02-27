@@ -1,0 +1,64 @@
+$grid-gutter: 16px;
+$grid-columns: 12;
+$grid-max: 1004px;
+
+[class*="grid-"]{
+  float: left;
+  padding: 0 $grid-gutter;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+@for $i from 1 through $grid-columns{
+  .grid-#{$i}{
+    width: 100% / $grid-columns * $i
+  }
+}
+
+.navbar-mobile{
+  display: none;
+}
+
+
+@media only screen and (max-width: 550px) {
+  .container{
+    width: auto;
+    padding: 0 20px;
+  }
+
+  [class*="grid-"]{
+    width: 100%;
+
+    float: none;
+    padding: 0;
+    margin-bottom: 0;
+    box-sizing: border-box;
+  }
+  
+  .hidden{
+    display: none;
+  }
+  
+  .navbar{
+    display: none;
+    &-mobile{
+      display: block;
+    }
+  }
+  
+  .navbar-mobile{
+    .brand{
+      float: left;
+    }
+    
+    ul{
+      width: auto;
+      a{
+        display: block;
+        margin: 20px 0 0 0;
+      }
+    }
+  }
+  
+  
+}

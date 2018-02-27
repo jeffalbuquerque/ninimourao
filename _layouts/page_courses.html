@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="hero-courses {{ page.course-name }}">
+  <div class="container">
+    <div class="row">
+      <div class="grid-12">
+        <h1 class="name-courses">{{ page.title | escape }}</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<main class="content-courses">
+
+  {{ content }}
+
+  {% include plus-courses.html %}
+
+</main>

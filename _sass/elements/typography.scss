@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+h1, h2, h3, h4, h5, h6, p, a{
+  font-family: 'Helvetica', sans-serif;
+}
+
+h1{
+  font-size: 3em;
+  @media only screen and (max-width: 550px) {
+    font-size: 2em;
+    
+  }
+}
+
+h2{
+  font-size: 2em;
+  color: #6B727B;
+}
+
+p{
+  color: #95989A;
+  line-height: 26px;
+}
+
+a{
+  -webkit-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  transition: all 200ms ease;
+  
+  &:hover{
+    transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+}
+
+.title{
+  text-transform: uppercase;
+  &:after{
+    content: ' ';
+    display: block;
+    width: 80px;
+    height: 10px;
+    margin: 10px 0 0 0;
+  }
+}

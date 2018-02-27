@@ -1,0 +1,16 @@
+.school{
+  height: 545px;
+  background: url(images/school.png) no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  
+  .title{
+    color: white;
+    margin: 0 0 80px 80px;
+    width: 350px;
+    &:after{
+      background: white;
+    }
+  }
+}

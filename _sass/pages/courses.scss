@@ -1,0 +1,45 @@
+.content-courses{
+  h2{
+    margin: 60px 0 0 0;
+    color: #FF03D8;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    &::after{
+      content: '';
+      width: 60px;
+      height: 10px;
+      background: #FF03D8;
+      display: block;
+      margin: 10px 0 0 0;
+    }
+  }
+  p{
+    margin: 40px 0;
+    line-height: 1.8
+  }
+}
+
+.hero-courses{
+  display: flex;
+  height: 400px;
+  align-items: flex-end;
+
+  &.educacao-infatil{
+    background: url("images/courses/infantil/hero-infantil.jpg") no-repeat;
+  }
+
+  &.ensino-fundamental{
+    background: url("images/courses/fundamental/hero-fundamental.jpg") no-repeat;
+
+  }
+  
+  &.ensino-medio{
+    background: url("images/courses/medio/hero-medio.jpg") no-repeat;
+
+  }
+
+  h1{
+    color: white;
+    width: 150px;
+  }
+}

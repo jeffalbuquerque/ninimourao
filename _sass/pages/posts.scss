@@ -1,0 +1,36 @@
+.hero-posts{
+  display: flex;
+  height: 400px;
+  align-items: flex-end;
+  background: url("images/posts/hero-posts.jpg") no-repeat;
+
+  h1{
+    color: white;
+    width: 290px;
+  }
+}
+
+.post{
+  &-title{
+    color: #4E4E4E;
+    font-size: 3em;
+    margin: 0;
+  }
+  &-date{
+    color: #61C6FC;
+    font-family: sans-serif;
+    display: block;
+    margin: 0 0 40px 0;
+    font-size: .8em;
+  }
+  &-content{
+    img{
+      width: 100%;
+    }
+    p{
+      line-height: 1.8;
+      color: #383838;
+      margin: 40px 0;
+    }
+  }
+}

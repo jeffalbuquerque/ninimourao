@@ -1,0 +1,15 @@
+version: '2'
+
+volumes:
+  vol-gems:
+
+services:
+  jekyll: &base
+    image: altieres/docker-jekyll-s3:2.0
+    environment:
+      JEKYLL_ENV: development
+    volumes:
+      - vol-gems:/usr/local/bundle
+      - .:/usr/src/app/
+    ports:
+      - "4000:4000"

@@ -1,0 +1,28 @@
+.contact{
+  margin: 40px 0;
+
+  .title{
+    color: #FF0753;
+    &:after{
+      background: #FF0753;
+    }
+  }
+
+  h3{
+    font-size: 1em;
+    font-weight: bold;
+    color: #47545D;
+    text-transform: uppercase;
+    margin: 40px 0 10px 0;
+  }
+  a{
+    color: #0099FF;
+    display: block;
+    margin: 0 0 10px 0;
+    font-size: .9em;
+  }
+  p{
+    font-size: .9em;
+    margin: 0;
+  }
+}

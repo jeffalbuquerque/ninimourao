@@ -1,0 +1,20 @@
+# This is a sample build configuration for Docker.
+# Check our guides at https://confluence.atlassian.com/x/O1toN for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+image: altieres/docker-jekyll-s3:2.0
+
+# enable Docker for your repository
+options:
+  docker: true
+
+pipelines:
+  default:
+    - step:
+        script:
+          - bundle install
+          - rm -rf _site
+          - jekyll build
+          - aws s3 sync --exclude "assets/*" --delete --metadata-directive REPLACE --cache-control 'max-age=60' ./_site s3://$S3_BUCKET
+          - aws s3 sync --include "assets/*" --delete --metadata-directive REPLACE --cache-control 'max-age=31536000' ./_site s3://$S3_BUCKET

@@ -1,0 +1,56 @@
+<footer>
+
+  <div class="container">
+    <div class="row">
+      <div class="grid-6">
+        <h4>{{ site.title | escape }}</h4>
+        <p>Educação que transforma.</p>
+      </div>
+      <div class="grid-6">
+        <div class="icons">
+          <a href="https://www.facebook.com/Colegio.Nini.Mourao" title="Curta nossa página no Facebook.">
+            <img src="{{ site.baseurl }}/assets/images/icon-facebook.svg" alt="Logo" width="12" height="22" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="license">
+    <div class="container">
+      <div class="row">
+        <div class="grid-6">
+          <p>Todos os direitos reservados © 2018</p>
+        </div>
+        <div class="grid-6">
+          <div class="documents">
+            <a href="{{ "/termos-e-condicoes" | prepend: site.baseurl }}" title="Termos e condições de uso.">Termos de uso</a>
+            <a href="{{ "/politica-de-privacidade" | prepend: site.baseurl }}" title="Política de Privacidade.">Política de Privacidade</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.vitrine').slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: true,
+      dots: true
+    });
+  });
+</script>
+
+<script>
+  AOS.init({
+    easing: 'ease-out-back',
+    duration: 1000
+  });
+</script>
