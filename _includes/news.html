@@ -1,4 +1,4 @@
-<section class="news">
+<section id="news" class="news">
   <div class="container">
     <div class="row">
       <div class="grid-12">
@@ -10,12 +10,12 @@
         <ul class="list-news">
           {% for post in site.posts %}
           <li data-aos="fade-up">
-            <a href="{{ post.url }}">
+            <a href="{{ post.url | relative_url }}">
               <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span>
               <h3>{{ post.title }}</h3>
               {% if post.image %}
-                <img src="{{ post.image }}" alt="{{ post.title }}">
-              {% endif %}    
+                <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+              {% endif %}
             </a>
           </li>
           {% endfor %}

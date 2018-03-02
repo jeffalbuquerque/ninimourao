@@ -30,9 +30,9 @@ layout: default
           {% for post in site.posts %}
             {% if page.title != post.title %}
             <li>
-              <a href="{{ post.url }}">
+              <a href="{{ post.url | relative_url }}">
                 <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span>
-                <h4>{{ post.title }}</h4>        
+                <h4>{{ post.title }}</h4>
               </a>
             </li>
             {% endif %}
@@ -42,5 +42,3 @@ layout: default
     </div>
   </div>
 </div>
-
-
