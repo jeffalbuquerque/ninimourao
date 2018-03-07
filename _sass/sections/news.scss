@@ -1,8 +1,8 @@
 .news{
   margin: 40px 0;
   background-color: #EBEBEB;
-  
-  
+
+
   .title{
     color: #14DCED;
     margin: 80px 0 40px 0;
@@ -10,17 +10,17 @@
       background: #14DCED;
     }
   }
-  
+
   .main-new{
     display: flex;
     flex-direction: column;
-    
+
     img{
       width: 100%;
       position: relative;
       z-index: 1;
     }
-    
+
     .details-new{
       background: rgba(0,0,0, 0.6);
       position: relative;
@@ -29,7 +29,7 @@
       height: 150px;
       box-sizing: border-box;
       padding: 20px 40px;
-      
+
       p{
         color: #14DCED;
         margin: 0;
@@ -39,10 +39,10 @@
         margin: 0;
         font-size: 1.6em;
       }
-      
+
     }
   }
-  
+
   .list-news{
     li{
       a{
@@ -51,7 +51,7 @@
       }
       span{
         margin: 0;
-  
+
       }
       &:first-child{
         position: relative;
@@ -66,7 +66,7 @@
         span{
           margin: 0;
           position: absolute;
-          bottom: 88px;
+          bottom: 110px;
           z-index: 2;
           left: 40px;
         }
@@ -94,7 +94,7 @@
       margin: 0;
       font-size: 1.6em;
     }
-  
+
   }
 }
 
@@ -116,4 +116,3 @@
 
   }
 }
-  

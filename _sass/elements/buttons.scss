@@ -10,7 +10,7 @@ a{
     &-arround{
       border: solid 1px white;
       border-radius: 100px;
-      
+
       &-color{
         border: none;
         background: #0BC0F7;
@@ -24,18 +24,18 @@ a{
     &-large{
       padding: 12px 80px;
       font-size: 1.1em;
-      
-      
+
+
       @media only screen and (max-width: 550px) {
         padding: 20px 80px;
         width: auto;
         display: block;
       }
-      
+
     }
   }
   &.go-to-back{
-    background: url("/assets/images/elements/icon-right-arrow.png") no-repeat;
+    background: url("../assets/images/elements/icon-right-arrow.png") no-repeat;
     margin: 40px 0 0 0;
     display: block;
     width: 32px;

@@ -7,14 +7,20 @@
     </div>
     <div class="row">
       <div class="grid-12">
+        <!-- {% for post in site.posts offset:1 %}
+          <a href="{{ post.url | relative_url }}">
+            <h3>{{ post.title }}</h3>
+          </a>
+        {% endfor %} -->
+
         <ul class="list-news">
-          {% for post in site.posts %}
+          {% for post in site.posts limit:5 %}
           <li data-aos="fade-up">
             <a href="{{ post.url | relative_url }}">
-              <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span>
+              <span class="post-date">{{ post.date | date: "%d/%m/%Y %R" }}</span>
               <h3>{{ post.title }}</h3>
               {% if post.image %}
-                <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+                <img width="580" src="{{ post.image | relative_url }}" alt="{{ post.title }}">
               {% endif %}
             </a>
           </li>
