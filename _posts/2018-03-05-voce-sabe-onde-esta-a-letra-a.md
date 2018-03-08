@@ -6,7 +6,7 @@ date:   2018-03-05 15:43:00
 permalink: voce-sabe-onde-esta-a-letra-a
 ---
 
-![Você sabe onde está a letra A]({{ "/assets/images/posts/letra-a/voce-sabe-onde-esta-a-letra-a-capa.jpg" | absolute_url }})
+![Você sabe onde está a letra A]({{ "/assets/images/posts/letra-a/voce-sabe-onde-esta-a-letra-a-capa.jpg" | relative_url }})
 
 Os alunos da Educação Infantil IV participaram de uma aula incrível!
 
@@ -14,5 +14,5 @@ Identificando, associando e aprendendo através da interação com meio! O Assun
 
 Até a Professora Tamyres se fantasiou de abelha. Os alunos colaram, fizeram uma exposição de objetos, verbalizaram e ouviram várias histórias! #OrgulhoDeSerNini.
 
-![Você sabe onde está a letra A]({{ "/assets/images/posts/letra-a/voce-sabe-onde-esta-a-letra-a-alunos.jpg" | absolute_url }})
-![Você sabe onde está a letra A]({{"/assets/images/posts/letra-a/voce-sabe-onde-esta-a-letra-a-roda.jpg" | absolute_url }})
+![Você sabe onde está a letra A]({{ "/assets/images/posts/letra-a/voce-sabe-onde-esta-a-letra-a-alunos.jpg" | relative_url }})
+![Você sabe onde está a letra A]({{"/assets/images/posts/letra-a/voce-sabe-onde-esta-a-letra-a-roda.jpg" | relative_url }})
