@@ -35,6 +35,12 @@
     background: linear-gradient(45deg,  rgba(0,0,0,0.2) 0%, rgba(0,0,0,1) 100%),url(images/nini-mourao/background-nini-mourao.jpg) no-repeat 0 -150px ; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     background-size: cover;
   }
+  &.familia-nini-mourao{
+    background: -moz-linear-gradient(45deg,  rgba(0,0,0,0.2) 0%, #a900ff 100%) ,url(images/familia-nini-mourao/background-familia-nini-mourao.jpg) no-repeat 0 -240px  ; /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  rgba(0,0,0,0.2) 0%, #a900ff 100%) ,url(images/familia-nini-mourao/background-familia-nini-mourao.jpg) no-repeat 0 -240px ; /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  rgba(0,0,0,0.2) 0%, #a900ff 100%),url(images/familia-nini-mourao/background-familia-nini-mourao.jpg) no-repeat 0 -240px ; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background-size: cover;
+  }
 
   h1{
     color: white;

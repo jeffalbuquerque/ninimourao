@@ -1,5 +1,28 @@
 footer{
   background: #464A4B;
+  h5{
+    color: #14DCED;
+    font-size: 1.1em;
+    margin: 20px 0 0 0;
+    &::after{
+      content: '';
+      width: 30px;
+      height: 5px;
+      background: #14DCED;
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  ul{
+    margin: 0;
+    li{
+      padding: 10px 0;
+      a{
+        font-size: .9em;
+        color: white;
+      }
+    }
+  }
   
   p{
     font-size: .8em;
@@ -17,7 +40,7 @@ footer{
     justify-content: flex-end;
     a{
       display: block;
-      margin: 30px 0 0 20px;
+      margin: 20px 0 0 20px;
     }
   }
   
