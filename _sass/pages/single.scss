@@ -1,0 +1,43 @@
+.content-page{
+  h2{
+    margin: 60px 0 0 0;
+    color: #FF03D8;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    &::after{
+      content: '';
+      width: 60px;
+      height: 10px;
+      background: #FF03D8;
+      display: block;
+      margin: 10px 0 0 0;
+    }
+  }
+  p{
+    margin: 40px 0;
+    line-height: 1.8
+  }
+  img{
+    width: 100%;
+  }
+}
+
+.hero-page{
+  display: flex;
+  height: 400px;
+  align-items: flex-end;
+
+  
+  
+  &.nini-mourao{
+    background: -moz-linear-gradient(45deg,  rgba(0,0,0,0.2) 0%, rgba(0,0,0,1) 100%) ,url(images/nini-mourao/background-nini-mourao.jpg) no-repeat 0 -150px  ; /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  rgba(0,0,0,0.2) 0%, rgba(0,0,0,1) 100%) ,url(images/nini-mourao/background-nini-mourao.jpg) no-repeat 0 -150px ; /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  rgba(0,0,0,0.2) 0%, rgba(0,0,0,1) 100%),url(images/nini-mourao/background-nini-mourao.jpg) no-repeat 0 -150px ; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background-size: cover;
+  }
+
+  h1{
+    color: white;
+    width: 300px;
+  }
+}

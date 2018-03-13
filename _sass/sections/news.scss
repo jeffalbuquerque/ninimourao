@@ -42,45 +42,53 @@
 
     }
   }
+  
+  .firt-news{
+    img{
+      width: 100%;
+    }
+    a{
+      position: relative;
+      margin: 0;
+      display: block;
+      transition: all .2s cubic-bezier(.4,0,.2,1);
+      &:hover{
+        webkit-transform: scale(1.02);
+        transform: scale(1.02);
+        cursor: pointer;
+      }
+      h3{
+        position: absolute;
+        bottom: 0;
+        z-index: 1;
+        color: white;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        background-color: rgba(0,0,0, 0.8);
+        padding: 40px;
+        box-sizing: border-box;
+        font-size: 1.8em;
+        span{
+          margin: 0;
+          font-size: .4em;
+        }
+      }
+    }
+  }
 
   .list-news{
     li{
       a{
         text-decoration: none;
         display: block;
+        &:hover{
+          opacity: .5;
+          cursor: pointer;  
+        }
       }
       span{
         margin: 0;
-
-      }
-      &:first-child{
-        position: relative;
-        float: left;
-        margin: 0 30px 0 0;
-        transition: all .2s cubic-bezier(.4,0,.2,1);
-        &:hover{
-          webkit-transform: scale(1.02);
-          transform: scale(1.02);
-          cursor: pointer;
-        }
-        span{
-          margin: 0;
-          position: absolute;
-          bottom: 110px;
-          z-index: 2;
-          left: 40px;
-        }
-        h3{
-          position: absolute;
-          bottom: 18px;
-          z-index: 1;
-          color: white;
-          width: 100%;
-          padding: 40px;
-          box-sizing: border-box;
-          margin: 0;
-          background-color: rgba(0,0,0, 0.7)
-        }
       }
     }
     p{
@@ -92,7 +100,7 @@
     h3{
       color: black;
       margin: 0;
-      font-size: 1.6em;
+      font-size: 1.4em;
     }
 
   }
@@ -105,6 +113,11 @@
   }
   a{
     text-decoration: none;
+    display: block;
+    &:hover{
+      opacity: .5;
+      cursor: pointer;
+    }
     .post-date{
       margin: 0;
     }
@@ -113,6 +126,5 @@
       color: #1D1D1D;
       font-size: 1.2em;
     }
-
   }
 }

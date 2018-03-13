@@ -6,22 +6,25 @@
       </div>
     </div>
     <div class="row">
-      <div class="grid-12">
-        <!-- {% for post in site.posts offset:1 %}
-          <a href="{{ post.url | relative_url }}">
-            <h3>{{ post.title }}</h3>
-          </a>
-        {% endfor %} -->
-
+      <div class="grid-8">
+        {% assign post = site.posts.first %}
+          <div class="firt-news">
+            <a href="{{ post.url | relative_url }}.html">
+              <h3>
+                <span class="post-date">{{ post.date | date: "%d/%m/%Y %R" }}</span>
+                {{ post.title }}
+              </h3>
+              <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+            </a>
+          </div>
+      </div>
+      <div class="grid-4">
         <ul class="list-news">
-          {% for post in site.posts limit:5 %}
+          {% for post in site.posts offset:1 limit:4 %}
           <li data-aos="fade-up">
-            <a href="{{ post.url | relative_url }}">
+            <a href="{{ post.url | relative_url }}.html">
               <span class="post-date">{{ post.date | date: "%d/%m/%Y %R" }}</span>
               <h3>{{ post.title }}</h3>
-              {% if post.image %}
-                <img width="580" src="{{ post.image | relative_url }}" alt="{{ post.title }}">
-              {% endif %}
             </a>
           </li>
           {% endfor %}
