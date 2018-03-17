@@ -24,18 +24,26 @@ layout: default
       </div>
     </div>
     <div class="grid-3">
+      <div class="banners">
+        <a data-scroll href="{{ site.baseurl }}/#courses" title="Conheça nossos cursos"><img src="{{ site.baseurl }}/assets/images/banners/banner-cursos.jpg" alt="Conheça nossos cursos"></a>
+        <a data-scroll href="http://www.fungotac.com.br/home/" title="Doe para a Gota de Leite Fungotac!" target="_blank"><img src="{{ site.baseurl }}/assets/images/banners/banner-fungotac.jpg" alt="Doe para a Gota de Leite Fungotac!"></a>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="grid-12">
       <div class="last-news">
         <h3>Últimas notícias</h3>
         <ul>
           {% for post in site.posts %}
-            {% if page.title != post.title %}
-            <li>
-              <a href="{{ post.url | relative_url }}.html">
-                <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span>
-                <h4>{{ post.title }}</h4>
-              </a>
-            </li>
-            {% endif %}
+          {% if page.title != post.title %}
+          <li>
+            <a href="{{ post.url | relative_url }}.html">
+              <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span>
+              <h4>{{ post.title }}</h4>
+            </a>
+          </li>
+          {% endif %}
           {% endfor %}
         </ul>
       </div>
