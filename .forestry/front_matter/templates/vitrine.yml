@@ -1,6 +1,4 @@
 ---
-pages:
-- hero.md
 hide_body: false
 fields:
 - type: image_gallery
