@@ -1,9 +1,0 @@
----
-pages:
-- teste.md
-hide_body: false
-fields:
-- type: image_gallery
-  default:
-  - "/uploads/2018/03/20/pan-xiaozhen-423533-unsplash.jpg"
-  - "/uploads/2018/03/20/charisse-kenion-367844-unsplash.jpg"
