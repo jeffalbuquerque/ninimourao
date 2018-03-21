@@ -1,9 +1,10 @@
 ---
-layout: post
-title:  "Representação da figura humana com massinha colorida"
-categories: experiencias
-date:   2018-02-26 17:21:01
+title: Representação da figura humana com massinha colorida
+date: 2018-02-26 17:21:01 Z
 permalink: representacao-da-figura-humana-com-massinha-colorida
+categories:
+- experiencias
+layout: post
 ---
 
 ![Representação da figura humana com massinha colorida]({{ "/assets/images/posts/representacao-humana/representacao-humana.jpg" | relative_url }})

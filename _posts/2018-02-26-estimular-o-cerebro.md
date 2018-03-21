@@ -1,9 +1,10 @@
 ---
-layout: post
-title:  "Existe maneira melhor de estimular o cérebro do que jogando ou brincando?"
-categories: experiencias
-date:   2018-02-26 17:22:00
+title: Existe maneira melhor de estimular o cérebro do que jogando ou brincando?
+date: 2018-02-26 17:22:00 Z
 permalink: estimular-o-cerebro
+categories:
+- experiencias
+layout: post
 ---
 
 ![Representação da figura humana com massinha colorida]({{ "/assets/images/posts/estimular-o-cerebro/estimular-o-cerebro.jpg" | relative_url }})

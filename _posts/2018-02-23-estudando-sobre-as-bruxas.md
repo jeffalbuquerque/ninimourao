@@ -1,9 +1,10 @@
 ---
-layout: post
-title:  "Estudando sobre as bruxas na europa medieval"
-categories: experiencias
-date:   2018-02-23 08:00:00
+title: Estudando sobre as bruxas na europa medieval
+date: 2018-02-23 08:00:00 Z
 permalink: estudando-sobre-as-bruxas
+categories:
+- experiencias
+layout: post
 ---
 
 ![Experiência do caule]({{ "/assets/images/posts/bruxas/sobre-as-bruxas.jpg" | relative_url }})
