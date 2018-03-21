@@ -1,0 +1,9 @@
+---
+pages:
+- hero.md
+hide_body: false
+fields:
+- type: file
+  description: teste
+  name: Teste
+  label: Teste
