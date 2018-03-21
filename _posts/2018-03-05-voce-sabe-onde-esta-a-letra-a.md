@@ -1,10 +1,11 @@
 ---
 title: Você sabe onde está a letra A
-date: 2018-03-05 15:43:00 Z
+date: 2018-03-05 17:43:00 Z
 permalink: voce-sabe-onde-esta-a-letra-a
 categories:
 - experiencias
 layout: post
+image: "/assets/images/posts/letra-a/voce-sabe-onde-esta-a-letra-a-capa.jpg"
 ---
 
 ![Você sabe onde está a letra A]({{ "/assets/images/posts/letra-a/voce-sabe-onde-esta-a-letra-a-capa.jpg" | relative_url }})
