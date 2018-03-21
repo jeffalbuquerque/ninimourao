@@ -2,26 +2,7 @@
 layout: default
 ---
 
-<div class="vitrine">
-  <section class="content">
-    <div class="container">
-      <div class="row">
-        <div class="grid-12" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-sine">
-            <a href="{{ site.baseurl }}/" title="Colégio Nini Mourão"><img class="logo" src="{{ site.baseurl }}/assets/images/vitrine/parabens-aos-alunos.jpg" alt="Colégio Nini Mourão"></a>
-         </div>   
-       </div>
-    </div>
-  </section>
-  <section class="content">
-    <div class="container">
-      <div class="row">
-        <div class="grid-12" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-sine">
-            <a href="{{ site.baseurl }}/" title="Colégio Nini Mourão"><img class="logo" src="{{ site.baseurl }}/assets/images/alunos/background-alunos.jpg" alt="Colégio Nini Mourão"></a>
-         </div>   
-       </div>
-    </div>
-  </section>
-</div>
+{% include vitrine.html %}
 {% include courses.html %}
 {% include news.html %}
 {% include school.html %}
