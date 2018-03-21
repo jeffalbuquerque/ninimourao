@@ -1,11 +1,13 @@
 ---
-layout: post
 title: Projeto de literatura 2018
-categories: experiencias
-image: "/assets/images/posts/projeto-literatura-2018/projeto-literatura-2018-capa.jpg"
-date: 2018-03-05 15:43:00 +0000
+date: 2018-03-05 15:43:00 Z
 permalink: projeto-de-literatura-2018
+categories:
+- experiencias
+layout: post
+image: "/assets/images/posts/projeto-literatura-2018/projeto-literatura-2018-capa.jpg"
 ---
+
 !\[Projeto de literatura 2018\]({{ "/assets/images/posts/projeto-literatura-2018/projeto-literatura-2018-capa.jpg" | relative_url }})
 
 Para dar início ao **projeto de literatura do ano 2018**, a professora de português, Hadassa de Paula, em parceria com a **Livraria Centenário**, promoveu um Café Literário.

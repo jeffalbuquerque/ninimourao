@@ -1,9 +1,10 @@
 ---
-layout: post
-title:  "Você sabe dizer qual é função do caule?"
-categories: experiencias
-date:   2018-02-22 08:00:01
+title: Você sabe dizer qual é função do caule?
+date: 2018-02-22 08:00:01 Z
 permalink: experiencia-do-caule
+categories:
+- experiencias
+layout: post
 ---
 
 ![Experiência do caule]({{ "/assets/images/posts/caule/experiencia-do-caule.jpg" | relative_url }})

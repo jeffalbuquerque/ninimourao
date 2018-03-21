@@ -1,9 +1,10 @@
 ---
-layout: post
-title:  "Alunos dos 4º anos visitam a praça e descobrem a diversidade!"
-categories: novidade
-date:   2018-02-21 16:09:00
+title: Alunos dos 4º anos visitam a praça e descobrem a diversidade!
+date: 2018-02-21 16:09:00 Z
 permalink: visita-na-praca
+categories:
+- novidade
+layout: post
 ---
 
 ![Desfile do novo uniforme]({{ "/assets/images/posts/visita-na-praca/photo-1.jpg" | relative_url }})
