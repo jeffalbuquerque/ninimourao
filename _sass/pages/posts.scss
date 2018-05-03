@@ -15,6 +15,9 @@
     color: #4E4E4E;
     font-size: 3em;
     margin: 0;
+    @media only screen and (max-width: 550px) {
+      font-size: 1.8em;
+    }
   }
   &-date{
     color: #61C6FC;

@@ -1,4 +1,7 @@
 .banners{
+  @media only screen and (max-width: 550px) {
+    display: none;
+  }
   img{
     width: 100%;
     margin: 0 0 40px 0;
