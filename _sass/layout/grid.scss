@@ -34,31 +34,8 @@ $grid-max: 1004px;
     margin-bottom: 0;
     box-sizing: border-box;
   }
-  
+
   .hidden{
     display: none;
   }
-  
-  .navbar{
-    display: none;
-    &-mobile{
-      display: block;
-    }
-  }
-  
-  .navbar-mobile{
-    .brand{
-      float: left;
-    }
-    
-    ul{
-      width: auto;
-      a{
-        display: block;
-        margin: 20px 0 0 0;
-      }
-    }
-  }
-  
-  
 }

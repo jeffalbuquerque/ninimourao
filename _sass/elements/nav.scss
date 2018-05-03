@@ -3,6 +3,9 @@ nav{
     display: flex;
     justify-content: flex-end;
     list-style: none;
+    @media only screen and (max-width: 550px) {
+      display: none;
+    }
     li{
       margin: 0 10px;
       display: block;

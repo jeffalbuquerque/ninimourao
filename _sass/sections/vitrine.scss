@@ -1,31 +1,34 @@
 .vitrine{
   height: 504px;
   background: black;
+  @media only screen and (max-width: 550px) {
+    height: auto;
+  }
 }
 
 .content{
   padding: 200px 0 0 0;
   height: 550px;
-  
+
   color: white;
 
   p{
     font-size: 1.2em;
     margin: 0 0 40px 0;
-    
+
     @media only screen and (max-width: 550px) {
       margin: 40px 0 40px 0;
-      
+
     }
   }
-  
+
   @media only screen and (max-width: 550px) {
     padding: 160px 0 0 0;
     min-height: 80vh;
     display: block;
-    
+
   }
-  
+
   &-default{
     background: rgb(0,255,216); /* Old browsers */
     background: -moz-linear-gradient(45deg,  rgba(249,49,103,0.2) 0%, rgba(232,64,159,1) 100%) ,url(images/background-hero.png) no-repeat  ; /* FF3.6-15 */
@@ -34,7 +37,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f93167', endColorstr='#e8409f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-    
+
   }
   &-freshman{
     background: rgba(19,66,241,0.7); /* Old browsers */
